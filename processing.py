@@ -17,10 +17,3 @@ def merge_friends(user_ids: list) -> list:
     union = list(map(lambda x: (union[x], x), union))
     union.sort(reverse=True)
     return union
-
-
-def test(ids: list):
-    # ids = ['mr146', 'gardener_giraffe', 'ritashadrina', 'kungasc']
-    union = merge_friends(ids)
-    for i in union:
-        print('{} {}'.format(i[1], i[0]))
