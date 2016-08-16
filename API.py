@@ -93,7 +93,3 @@ class Image:
     def get_link(self):
         return self.link
 
-
-if __name__ == '__main__':
-    user = User.get_by_id('63488273')
-    user.get_photo()
