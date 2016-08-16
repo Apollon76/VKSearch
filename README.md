@@ -1,1 +1,3 @@
 # VKSearch
+
+Requires PyQt4.
